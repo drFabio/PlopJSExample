@@ -1,4 +1,4 @@
-function getDrink({ pageName, normalizedPageName }) {
+function getDrinks({ pageName, normalizedPageName }) {
   return `
   <html lang="en">
   <head>
@@ -20,4 +20,4 @@ function getDrink({ pageName, normalizedPageName }) {
   </body>
 </html>`.trim();
 }
-module.exports = { getDrink };
+module.exports = { getDrinks };

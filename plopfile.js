@@ -65,7 +65,7 @@ module.exports = (plop) => {
         {
           type: "modify",
           path: resolve(targetFolder, `./index.html`),
-          template: getAddMenu({ normalizedPageName }),
+          template: getAddMenu({ normalizedPageName, pageName }),
           abortOnFail: true,
           pattern: /<!--Insert placeholder-->/,
         },
